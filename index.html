@@ -12,35 +12,39 @@
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <script src="./node_modules/jquery/dist/jquery.js"></script>
   <!--bootstrap-->
- <script src="./node_modules/bootstrap/dist/css/bootstrap.min.css"></script>
+  <script src="./node_modules/bootstrap/dist/css/bootstrap.min.css"></script>
   <script src="./node_modules/bootstrap/dist/css/bootstrap-theme.min.css"></script>
 </head>
 
 <body>
-  <!-- <div class="main">
-        <section class="page1">
-          ...
-        </section>
-        <section class="page2">
-          ...
-        </section>
-        ...
-        <section class="last-page">
-          ...
-        </section>
-      </div> -->
-
+  <h1>Find Photos</h1>
   <!--search bar-->
   <div class="container">
-    <div class="row">
-      <div class="input-group">
-        <span class="input-group-btn">
-          <button class="btn btn-primary" id="searchBar" onclick="searchUnsplash()">Search</button>
-        </span>
-        <input type="text" class="form-contol" placeholder="Search by keyword" id="searchKeyword">
+      <div class="row">
+        <div class="input-group">
+          <span class="input-group-btn">
+            <button class="btn btn-primary" id="searchBar" onclick="searchUnsplash()">Click for Random Photos</button>
+          </span>
+        </div>
       </div>
     </div>
+  <img src="" class="random-image">
+  
+  <!--where i want the photos to load into-->
+  <div class="main">
+    <section class="page1">
+      ...
+    </section>
+    <section class="page2">
+      ...
+    </section>
+    ...
+    <section class="last-page">
+      ...
+    </section>
   </div>
+
+  <script src="apiJava.js"></script>
 </body>
 
 </html>
